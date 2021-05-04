@@ -1,8 +1,42 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --floral-white: #fffcf2ff;
+  --pale-silver: #ccc5b9ff;
+  --black-olive: #403d39ff;
+  --eerie-black: #252422ff;
+  --flame: #eb5e28ff;
+}
+
+html {
+  font-size: 112.5%;
+}
+
+body {
+  margin: 0;
+  background: var(--pale-silver);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: grid;
+}
+
+/* .header {
+} */
+
+.results {
+  background: var(--flame);
+}
+
+.footer {
+  background: var(--black-olive);
+  color: var(--floral-white);
 }
