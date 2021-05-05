@@ -1,6 +1,6 @@
 .character-card {
-  border: 2px solid black;
   padding: 2em;
+  background: var(--eerie-black);
 }
 
 .character-card img {
