@@ -1,0 +1,15 @@
+.character-card {
+  padding: 2em;
+  background: var(--eerie-black);
+}
+
+.character-card img {
+  border-radius: 10px;
+  height: 10em;
+  width: auto;
+}
+
+.character-card h2,
+p {
+  margin: 0.2em;
+}
