@@ -31,11 +31,18 @@ body {
   height: 100vh;
 }
 
-/* .header {
-} */
+.header {
+  padding-bottom: 4em;
+}
 
 .results {
   background: var(--flame);
+}
+
+.input {
+  border-radius: 7px;
+  height: 2.2em;
+  width: 20em;
 }
 
 .footer {
