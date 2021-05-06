@@ -13,3 +13,12 @@
 p {
   margin: 0.2em;
 }
+
+.character-card a {
+  text-decoration: none;
+  color: var(--eerie-black);
+}
+
+.character-card a:hover {
+  color: white;
+}

@@ -2,6 +2,7 @@ import "./character.css";
 import { createElement } from "../utils/elements";
 
 export function createCharacterElement({
+  id,
   image,
   name,
   status,
@@ -16,6 +17,10 @@ export function createCharacterElement({
       createElement("p", { innerText: status }),
       createElement("p", { innerText: species }),
       createElement("p", { innerText: origin.name }),
+      createElement("a", {
+        href: `/details.html?id=${id}`,
+        innerText: "Character Details",
+      }),
     ],
   });
 }

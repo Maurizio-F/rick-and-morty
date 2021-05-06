@@ -10,7 +10,7 @@ const characterSection = createElement("section", {
 
 // const section = characters.map(createCharacterElement);
 
-const header = createElement("header", {
+export const header = createElement("header", {
   className: "header",
   children: [
     createElement("h1", {
@@ -34,7 +34,7 @@ const header = createElement("header", {
   ],
 });
 
-const footer = createElement("footer", {
+export const footer = createElement("footer", {
   className: "footer",
   children: [
     createElement("div", {
